@@ -16,6 +16,6 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-=====================================================
-강의 자료
+
+## 강의 자료
 https://github.com/TaeBbong/quiz_app_lecture
