@@ -7,6 +7,8 @@ class Quiz {
 
   Quiz.fromMap(Map<String, dynamic> map)
       : title = map['title'],
-        candidates = map['candidate'],
+        candidates = (map['candidate'] as List?)
+            ?.map((item) => item.toString())
+            .toList(),
         answer = map['answer'];
 }
